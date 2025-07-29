@@ -40,7 +40,7 @@ app.post("/shorten", (req, res) => {
     const shortId = nanoid(7);
     urls.push({shortId, longUrl});
     saveUrls(urls);
-    return res.json({shortUrl: `http://localhost:5000/${existing.shortId}`})
+    res.json({shortUrl: `http://localhost:5000/${existing.shortId}`})
 });
 
 app.get("/:shortId", (req, res) => {
