@@ -1,16 +1,16 @@
 # Shorten-Url-express-JS
 
-how ?
-https://shorten-url-express-js.onrender.com/shorten
-Content-Type: application/json
+how ?<br>
+https://shorten-url-express-js.onrender.com/shorten<br>
+Content-Type: application/json<br>
 
-{
-  "longUrl": "https://www.google.com"
-}
+{<br>
+  "longUrl": "https://www.google.com"<br>
+}<br>
 
-then 
-
+then <br>
+<br>
 https://shorten-url-express-js.onrender.com/-proUeh <= you well go to google.com hahaha
-
+<br>
 
 THIS JUST EXAMPLE
